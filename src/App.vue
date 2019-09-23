@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <p>Component</p>
+    <div class="box"></div>
     <router-view />
   </div>
 </template>
@@ -17,4 +17,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.box {
+  width: 375px;
+  height: 100px;
+  background: 336655;
+}
 </style>
